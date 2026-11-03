@@ -21,7 +21,6 @@ parts:
     build-packages:
       - g++
       - make
-      - libusb-0.1-4
-      - libusb-dev
+      - libusb-1.0-0-dev
     stage-packages:
-      - libusb-0.1-4
+      - libusb-1.0-0
